@@ -4,11 +4,11 @@ import counterContext from '../context/counterContext';
 
 function Home() {
 
-    let {count} = useContext(counterContext);
+    let { count } = useContext(counterContext);
 
   return (
     <div className = "home">
-      Home Page {count}
+      Home Page { count } 
     </div>
   );
 }

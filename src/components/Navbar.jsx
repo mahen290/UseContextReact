@@ -6,7 +6,6 @@ function Navbar() {
 
   return (
     <div className = "navbar">
-      My Navbar
         <Button />
         <Home /> 
     </div>

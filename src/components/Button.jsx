@@ -7,7 +7,7 @@ function Button() {
     const {count, setCount} = useContext(counterContext);
   return (
     <div>
-      <button className = "btn" onClick = {() => setCount(count + 1)}>Click Me{count}</button>
+      <button className = "btn" onClick = {() => setCount( count + 1 )}> Click Me { count } </button>
     </div>
   );
 }
